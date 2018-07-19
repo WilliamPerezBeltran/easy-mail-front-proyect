@@ -8,6 +8,7 @@ import { routes } from './routes'
 
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
+Vue.use(VueResource)
 
 const router = new VueRouter({
 	routes,
