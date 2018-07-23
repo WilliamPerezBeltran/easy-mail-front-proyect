@@ -2,7 +2,7 @@
 <template lang="html">
   <div class="container">
     <div class="row" style="display: flex;justify-content: center;align-items: center;">
-      <div>
+      
         <form id="app" @submit="" method="post">
       <h2>Solicitud del servicio</h2>
       <div class="form-group">
@@ -65,7 +65,7 @@
       </div>
     </form>
         
-      </div>
+      
     </div>
   </div>
     

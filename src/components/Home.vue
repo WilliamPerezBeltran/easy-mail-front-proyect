@@ -10,7 +10,7 @@
       <p class="card-text">
         Some quick example text to build on the card title and make up the bulk of the card's content.
       </p>
-      <b-button href="#" variant="primary">Ingresar</b-button>
+      <b-button variant="success"><router-link :to="{name: 'signin'}">Ingresar</router-link></b-button>
     </b-card>
     </div>
 </template>
